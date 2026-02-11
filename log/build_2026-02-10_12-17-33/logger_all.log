@@ -1,0 +1,214 @@
+[1.094s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.094s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fa1f76fdd20>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fa1f796ffd0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fa1f796ffd0>>)
+[1.173s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.174s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.174s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.174s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.174s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.174s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.174s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src'
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.200s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.200s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.201s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(lab1) by extensions ['ignore', 'ignore_ament_install']
+[1.204s] Level 1:colcon.colcon_core.package_identification:_identify(lab1) by extension 'ignore'
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(lab1) by extension 'ignore_ament_install'
+[1.206s] Level 1:colcon.colcon_core.package_identification:_identify(lab1) by extensions ['colcon_pkg']
+[1.206s] Level 1:colcon.colcon_core.package_identification:_identify(lab1) by extension 'colcon_pkg'
+[1.206s] Level 1:colcon.colcon_core.package_identification:_identify(lab1) by extensions ['colcon_meta']
+[1.206s] Level 1:colcon.colcon_core.package_identification:_identify(lab1) by extension 'colcon_meta'
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(lab1) by extensions ['ros']
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(lab1) by extension 'ros'
+[1.213s] DEBUG:colcon.colcon_core.package_identification:Package 'lab1' with type 'ros.ament_python' and name 'lab1'
+[1.213s] Level 1:colcon.colcon_core.package_identification:_identify(lab2) by extensions ['ignore', 'ignore_ament_install']
+[1.213s] Level 1:colcon.colcon_core.package_identification:_identify(lab2) by extension 'ignore'
+[1.214s] Level 1:colcon.colcon_core.package_identification:_identify(lab2) by extension 'ignore_ament_install'
+[1.215s] Level 1:colcon.colcon_core.package_identification:_identify(lab2) by extensions ['colcon_pkg']
+[1.215s] Level 1:colcon.colcon_core.package_identification:_identify(lab2) by extension 'colcon_pkg'
+[1.216s] Level 1:colcon.colcon_core.package_identification:_identify(lab2) by extensions ['colcon_meta']
+[1.216s] Level 1:colcon.colcon_core.package_identification:_identify(lab2) by extension 'colcon_meta'
+[1.216s] Level 1:colcon.colcon_core.package_identification:_identify(lab2) by extensions ['ros']
+[1.216s] Level 1:colcon.colcon_core.package_identification:_identify(lab2) by extension 'ros'
+[1.219s] DEBUG:colcon.colcon_core.package_identification:Package 'lab2' with type 'ros.ament_python' and name 'lab2'
+[1.219s] Level 1:colcon.colcon_core.package_identification:_identify(lab3) by extensions ['ignore', 'ignore_ament_install']
+[1.220s] Level 1:colcon.colcon_core.package_identification:_identify(lab3) by extension 'ignore'
+[1.220s] Level 1:colcon.colcon_core.package_identification:_identify(lab3) by extension 'ignore_ament_install'
+[1.221s] Level 1:colcon.colcon_core.package_identification:_identify(lab3) by extensions ['colcon_pkg']
+[1.221s] Level 1:colcon.colcon_core.package_identification:_identify(lab3) by extension 'colcon_pkg'
+[1.222s] Level 1:colcon.colcon_core.package_identification:_identify(lab3) by extensions ['colcon_meta']
+[1.222s] Level 1:colcon.colcon_core.package_identification:_identify(lab3) by extension 'colcon_meta'
+[1.222s] Level 1:colcon.colcon_core.package_identification:_identify(lab3) by extensions ['ros']
+[1.222s] Level 1:colcon.colcon_core.package_identification:_identify(lab3) by extension 'ros'
+[1.226s] DEBUG:colcon.colcon_core.package_identification:Package 'lab3' with type 'ros.ament_python' and name 'lab3'
+[1.227s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.227s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.227s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.338s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.338s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.391s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/install
+[1.405s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 383 installed packages in /opt/ros/humble
+[1.411s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.491s] Level 5:colcon.colcon_core.verb:set package 'lab1' build argument 'cmake_args' from command line to 'None'
+[1.491s] Level 5:colcon.colcon_core.verb:set package 'lab1' build argument 'cmake_target' from command line to 'None'
+[1.491s] Level 5:colcon.colcon_core.verb:set package 'lab1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.491s] Level 5:colcon.colcon_core.verb:set package 'lab1' build argument 'cmake_clean_cache' from command line to 'False'
+[1.491s] Level 5:colcon.colcon_core.verb:set package 'lab1' build argument 'cmake_clean_first' from command line to 'False'
+[1.491s] Level 5:colcon.colcon_core.verb:set package 'lab1' build argument 'cmake_force_configure' from command line to 'False'
+[1.491s] Level 5:colcon.colcon_core.verb:set package 'lab1' build argument 'ament_cmake_args' from command line to 'None'
+[1.492s] Level 5:colcon.colcon_core.verb:set package 'lab1' build argument 'catkin_cmake_args' from command line to 'None'
+[1.492s] Level 5:colcon.colcon_core.verb:set package 'lab1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.492s] DEBUG:colcon.colcon_core.verb:Building package 'lab1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/build/lab1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab1', 'merge_install': False, 'path': '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/lab1', 'symlink_install': False, 'test_result_base': None}
+[1.504s] Level 5:colcon.colcon_core.verb:set package 'lab2' build argument 'cmake_args' from command line to 'None'
+[1.504s] Level 5:colcon.colcon_core.verb:set package 'lab2' build argument 'cmake_target' from command line to 'None'
+[1.504s] Level 5:colcon.colcon_core.verb:set package 'lab2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.504s] Level 5:colcon.colcon_core.verb:set package 'lab2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.504s] Level 5:colcon.colcon_core.verb:set package 'lab2' build argument 'cmake_clean_first' from command line to 'False'
+[1.504s] Level 5:colcon.colcon_core.verb:set package 'lab2' build argument 'cmake_force_configure' from command line to 'False'
+[1.504s] Level 5:colcon.colcon_core.verb:set package 'lab2' build argument 'ament_cmake_args' from command line to 'None'
+[1.504s] Level 5:colcon.colcon_core.verb:set package 'lab2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.504s] Level 5:colcon.colcon_core.verb:set package 'lab2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.504s] DEBUG:colcon.colcon_core.verb:Building package 'lab2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/build/lab2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab2', 'merge_install': False, 'path': '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/lab2', 'symlink_install': False, 'test_result_base': None}
+[1.516s] Level 5:colcon.colcon_core.verb:set package 'lab3' build argument 'cmake_args' from command line to 'None'
+[1.516s] Level 5:colcon.colcon_core.verb:set package 'lab3' build argument 'cmake_target' from command line to 'None'
+[1.516s] Level 5:colcon.colcon_core.verb:set package 'lab3' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.517s] Level 5:colcon.colcon_core.verb:set package 'lab3' build argument 'cmake_clean_cache' from command line to 'False'
+[1.517s] Level 5:colcon.colcon_core.verb:set package 'lab3' build argument 'cmake_clean_first' from command line to 'False'
+[1.517s] Level 5:colcon.colcon_core.verb:set package 'lab3' build argument 'cmake_force_configure' from command line to 'False'
+[1.517s] Level 5:colcon.colcon_core.verb:set package 'lab3' build argument 'ament_cmake_args' from command line to 'None'
+[1.517s] Level 5:colcon.colcon_core.verb:set package 'lab3' build argument 'catkin_cmake_args' from command line to 'None'
+[1.517s] Level 5:colcon.colcon_core.verb:set package 'lab3' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.517s] DEBUG:colcon.colcon_core.verb:Building package 'lab3' with the following arguments: {'ament_cmake_args': None, 'build_base': '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/build/lab3', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab3', 'merge_install': False, 'path': '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/lab3', 'symlink_install': False, 'test_result_base': None}
+[1.530s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.541s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.542s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/lab1' with build type 'ament_python'
+[1.542s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab1', 'ament_prefix_path')
+[1.558s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.558s] INFO:colcon.colcon_core.shell:Creating environment hook '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab1/share/lab1/hook/ament_prefix_path.ps1'
+[1.567s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab1/share/lab1/hook/ament_prefix_path.dsv'
+[1.570s] INFO:colcon.colcon_core.shell:Creating environment hook '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab1/share/lab1/hook/ament_prefix_path.sh'
+[1.585s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.585s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.639s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/lab2' with build type 'ament_python'
+[1.639s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab2', 'ament_prefix_path')
+[1.653s] INFO:colcon.colcon_core.shell:Creating environment hook '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab2/share/lab2/hook/ament_prefix_path.ps1'
+[1.662s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab2/share/lab2/hook/ament_prefix_path.dsv'
+[1.665s] INFO:colcon.colcon_core.shell:Creating environment hook '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab2/share/lab2/hook/ament_prefix_path.sh'
+[1.680s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.680s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.736s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/lab3' with build type 'ament_python'
+[1.736s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab3', 'ament_prefix_path')
+[1.759s] INFO:colcon.colcon_core.shell:Creating environment hook '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab3/share/lab3/hook/ament_prefix_path.ps1'
+[1.766s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab3/share/lab3/hook/ament_prefix_path.dsv'
+[1.769s] INFO:colcon.colcon_core.shell:Creating environment hook '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab3/share/lab3/hook/ament_prefix_path.sh'
+[1.785s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.785s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.055s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/lab1'
+[2.068s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.068s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.342s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/lab2'
+[2.355s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.355s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.620s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/lab3'
+[2.634s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.634s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.085s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/lab2': PS1=[COMP3631] Singularity> \w $ PYTHONPATH=/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/build/lab2/prefix_override:/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/lab2 build --build-base /uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/build/lab2/build install --record /uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/build/lab2/install.log --single-version-externally-managed
+[3.093s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/lab1': PS1=[COMP3631] Singularity> \w $ PYTHONPATH=/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/build/lab1/prefix_override:/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/lab1 build --build-base /uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/build/lab1/build install --record /uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/build/lab1/install.log --single-version-externally-managed
+[3.100s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/lab3': PS1=[COMP3631] Singularity> \w $ PYTHONPATH=/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/build/lab3/prefix_override:/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/lab3 build --build-base /uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/build/lab3/build install --record /uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/build/lab3/install.log --single-version-externally-managed
+[3.529s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/lab3' returned '0': PS1=[COMP3631] Singularity> \w $ PYTHONPATH=/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/build/lab3/prefix_override:/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/lab3 build --build-base /uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/build/lab3/build install --record /uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/build/lab3/install.log --single-version-externally-managed
+[3.550s] Level 1:colcon.colcon_core.environment:checking '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab3' for CMake module files
+[3.556s] Level 1:colcon.colcon_core.environment:checking '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab3' for CMake config files
+[3.574s] Level 1:colcon.colcon_core.environment:checking '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab3/lib'
+[3.578s] Level 1:colcon.colcon_core.environment:checking '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab3/bin'
+[3.580s] Level 1:colcon.colcon_core.environment:checking '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab3/lib/pkgconfig/lab3.pc'
+[3.583s] Level 1:colcon.colcon_core.environment:checking '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab3/lib/python3.10/site-packages'
+[3.583s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab3', 'pythonpath')
+[3.606s] INFO:colcon.colcon_core.shell:Creating environment hook '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab3/share/lab3/hook/pythonpath.ps1'
+[3.612s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab3/share/lab3/hook/pythonpath.dsv'
+[3.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab3/share/lab3/hook/pythonpath.sh'
+[3.625s] Level 1:colcon.colcon_core.environment:checking '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab3/bin'
+[3.625s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lab3)
+[3.639s] INFO:colcon.colcon_core.shell:Creating package script '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab3/share/lab3/package.ps1'
+[3.643s] INFO:colcon.colcon_core.shell:Creating package descriptor '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab3/share/lab3/package.dsv'
+[3.647s] INFO:colcon.colcon_core.shell:Creating package script '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab3/share/lab3/package.sh'
+[3.652s] INFO:colcon.colcon_core.shell:Creating package script '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab3/share/lab3/package.bash'
+[3.655s] INFO:colcon.colcon_core.shell:Creating package script '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab3/share/lab3/package.zsh'
+[3.660s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab3/share/colcon-core/packages/lab3)
+[3.682s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/lab2' returned '0': PS1=[COMP3631] Singularity> \w $ PYTHONPATH=/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/build/lab2/prefix_override:/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/lab2 build --build-base /uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/build/lab2/build install --record /uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/build/lab2/install.log --single-version-externally-managed
+[3.690s] Level 1:colcon.colcon_core.environment:checking '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab2' for CMake module files
+[3.713s] Level 1:colcon.colcon_core.environment:checking '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab2' for CMake config files
+[3.778s] Level 1:colcon.colcon_core.environment:checking '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab2/lib'
+[3.779s] Level 1:colcon.colcon_core.environment:checking '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab2/bin'
+[3.780s] Level 1:colcon.colcon_core.environment:checking '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab2/lib/pkgconfig/lab2.pc'
+[3.781s] Level 1:colcon.colcon_core.environment:checking '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab2/lib/python3.10/site-packages'
+[3.781s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab2', 'pythonpath')
+[3.802s] INFO:colcon.colcon_core.shell:Creating environment hook '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab2/share/lab2/hook/pythonpath.ps1'
+[3.828s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab2/share/lab2/hook/pythonpath.dsv'
+[3.841s] INFO:colcon.colcon_core.shell:Creating environment hook '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab2/share/lab2/hook/pythonpath.sh'
+[3.851s] Level 1:colcon.colcon_core.environment:checking '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab2/bin'
+[3.851s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lab2)
+[3.864s] INFO:colcon.colcon_core.shell:Creating package script '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab2/share/lab2/package.ps1'
+[3.875s] INFO:colcon.colcon_core.shell:Creating package descriptor '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab2/share/lab2/package.dsv'
+[3.883s] INFO:colcon.colcon_core.shell:Creating package script '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab2/share/lab2/package.sh'
+[3.887s] INFO:colcon.colcon_core.shell:Creating package script '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab2/share/lab2/package.bash'
+[3.891s] INFO:colcon.colcon_core.shell:Creating package script '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab2/share/lab2/package.zsh'
+[3.894s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab2/share/colcon-core/packages/lab2)
+[3.905s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/lab1' returned '0': PS1=[COMP3631] Singularity> \w $ PYTHONPATH=/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/build/lab1/prefix_override:/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/lab1 build --build-base /uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/build/lab1/build install --record /uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/build/lab1/install.log --single-version-externally-managed
+[3.912s] Level 1:colcon.colcon_core.environment:checking '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab1' for CMake module files
+[3.918s] Level 1:colcon.colcon_core.environment:checking '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab1' for CMake config files
+[3.932s] Level 1:colcon.colcon_core.environment:checking '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab1/lib'
+[3.933s] Level 1:colcon.colcon_core.environment:checking '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab1/bin'
+[3.933s] Level 1:colcon.colcon_core.environment:checking '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab1/lib/pkgconfig/lab1.pc'
+[3.934s] Level 1:colcon.colcon_core.environment:checking '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab1/lib/python3.10/site-packages'
+[3.935s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab1', 'pythonpath')
+[3.947s] INFO:colcon.colcon_core.shell:Creating environment hook '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab1/share/lab1/hook/pythonpath.ps1'
+[3.950s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab1/share/lab1/hook/pythonpath.dsv'
+[3.954s] INFO:colcon.colcon_core.shell:Creating environment hook '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab1/share/lab1/hook/pythonpath.sh'
+[3.957s] Level 1:colcon.colcon_core.environment:checking '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab1/bin'
+[3.957s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lab1)
+[3.971s] INFO:colcon.colcon_core.shell:Creating package script '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab1/share/lab1/package.ps1'
+[3.976s] INFO:colcon.colcon_core.shell:Creating package descriptor '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab1/share/lab1/package.dsv'
+[3.979s] INFO:colcon.colcon_core.shell:Creating package script '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab1/share/lab1/package.sh'
+[3.982s] INFO:colcon.colcon_core.shell:Creating package script '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab1/share/lab1/package.bash'
+[3.985s] INFO:colcon.colcon_core.shell:Creating package script '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab1/share/lab1/package.zsh'
+[3.988s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab1/share/colcon-core/packages/lab1)
+[4.000s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.000s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.001s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.001s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.061s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[4.061s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.061s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.062s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.072s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.084s] INFO:colcon.colcon_core.shell:Creating prefix script '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/local_setup.ps1'
+[4.088s] INFO:colcon.colcon_core.shell:Creating prefix util module '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/_local_setup_util_ps1.py'
+[4.091s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/setup.ps1'
+[4.109s] INFO:colcon.colcon_core.shell:Creating prefix script '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/local_setup.sh'
+[4.112s] INFO:colcon.colcon_core.shell:Creating prefix util module '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/_local_setup_util_sh.py'
+[4.116s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/setup.sh'
+[4.145s] INFO:colcon.colcon_core.shell:Creating prefix script '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/local_setup.bash'
+[4.153s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/setup.bash'
+[4.183s] INFO:colcon.colcon_core.shell:Creating prefix script '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/local_setup.zsh'
+[4.187s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/setup.zsh'

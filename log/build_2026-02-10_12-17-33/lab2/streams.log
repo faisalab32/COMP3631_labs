@@ -1,0 +1,52 @@
+[1.446s] Invoking command in '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/lab2': PS1=[COMP3631] Singularity> \w $ PYTHONPATH=/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/build/lab2/prefix_override:/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/lab2 build --build-base /uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/build/lab2/build install --record /uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/build/lab2/install.log --single-version-externally-managed
+[1.661s] running egg_info
+[1.661s] creating ../build/lab2/lab2.egg-info
+[1.662s] writing ../build/lab2/lab2.egg-info/PKG-INFO
+[1.670s] writing dependency_links to ../build/lab2/lab2.egg-info/dependency_links.txt
+[1.673s] writing entry points to ../build/lab2/lab2.egg-info/entry_points.txt
+[1.676s] writing requirements to ../build/lab2/lab2.egg-info/requires.txt
+[1.678s] writing top-level names to ../build/lab2/lab2.egg-info/top_level.txt
+[1.681s] writing manifest file '../build/lab2/lab2.egg-info/SOURCES.txt'
+[1.693s] reading manifest file '../build/lab2/lab2.egg-info/SOURCES.txt'
+[1.695s] writing manifest file '../build/lab2/lab2.egg-info/SOURCES.txt'
+[1.697s] running build
+[1.697s] running build_py
+[1.698s] creating /uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/build/lab2/build
+[1.699s] creating /uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/build/lab2/build/lib
+[1.700s] creating /uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/build/lab2/build/lib/lab2
+[1.703s] copying lab2/talker.py -> /uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/build/lab2/build/lib/lab2
+[1.708s] copying lab2/listener.py -> /uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/build/lab2/build/lib/lab2
+[1.713s] copying lab2/numeric_talker.py -> /uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/build/lab2/build/lib/lab2
+[1.717s] copying lab2/numeric_listener.py -> /uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/build/lab2/build/lib/lab2
+[1.722s] copying lab2/__init__.py -> /uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/build/lab2/build/lib/lab2
+[1.726s] running install
+[1.726s] running install_lib
+[1.729s] creating /uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab2/lib/python3.10/site-packages/lab2
+[1.731s] copying /uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/build/lab2/build/lib/lab2/talker.py -> /uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab2/lib/python3.10/site-packages/lab2
+[1.737s] copying /uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/build/lab2/build/lib/lab2/listener.py -> /uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab2/lib/python3.10/site-packages/lab2
+[1.743s] copying /uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/build/lab2/build/lib/lab2/numeric_talker.py -> /uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab2/lib/python3.10/site-packages/lab2
+[1.749s] copying /uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/build/lab2/build/lib/lab2/numeric_listener.py -> /uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab2/lib/python3.10/site-packages/lab2
+[1.755s] copying /uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/build/lab2/build/lib/lab2/__init__.py -> /uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab2/lib/python3.10/site-packages/lab2
+[1.763s] byte-compiling /uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab2/lib/python3.10/site-packages/lab2/talker.py to talker.cpython-310.pyc
+[1.773s] byte-compiling /uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab2/lib/python3.10/site-packages/lab2/listener.py to listener.cpython-310.pyc
+[1.781s] byte-compiling /uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab2/lib/python3.10/site-packages/lab2/numeric_talker.py to numeric_talker.cpython-310.pyc
+[1.789s] byte-compiling /uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab2/lib/python3.10/site-packages/lab2/numeric_listener.py to numeric_listener.cpython-310.pyc
+[1.797s] byte-compiling /uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab2/lib/python3.10/site-packages/lab2/__init__.py to __init__.cpython-310.pyc
+[1.804s] running install_data
+[1.806s] creating /uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab2/share/ament_index
+[1.807s] creating /uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab2/share/ament_index/resource_index
+[1.808s] creating /uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab2/share/ament_index/resource_index/packages
+[1.810s] copying resource/lab2 -> /uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab2/share/ament_index/resource_index/packages
+[1.831s] copying package.xml -> /uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab2/share/lab2
+[1.845s] creating /uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab2/share/lab2/launch
+[1.847s] copying launch/chatter.py -> /uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab2/share/lab2/launch
+[1.852s] copying launch/numeric_chatter.py -> /uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab2/share/lab2/launch
+[1.856s] running install_egg_info
+[1.858s] Copying ../build/lab2/lab2.egg-info to /uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab2/lib/python3.10/site-packages/lab2-0.0.0-py3.10.egg-info
+[1.908s] running install_scripts
+[1.923s] Installing listener script to /uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab2/lib/lab2
+[1.930s] Installing numeric_listener script to /uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab2/lib/lab2
+[1.937s] Installing numeric_talker script to /uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab2/lib/lab2
+[1.949s] Installing talker script to /uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab2/lib/lab2
+[1.966s] writing list of installed files to '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/build/lab2/install.log'
+[2.043s] Invoked command in '/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/lab2' returned '0': PS1=[COMP3631] Singularity> \w $ PYTHONPATH=/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/build/lab2/prefix_override:/uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/install/lab2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/lab2 build --build-base /uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/build/lab2/build install --record /uolstore/home/student_lnxhome01/fy21ftsa/ros2_ws/src/build/lab2/install.log --single-version-externally-managed
